@@ -17,7 +17,7 @@ const Details = () => {
         <h2>Bubble Coffee</h2>
         <div className={styles.info}>
           <h3>Endereço</h3>
-          <h4>Rua Fantasia, nº90 / Cidade - SP</h4>
+          <h4>Rua Fantasia, nº 90 / Cidade - SP</h4>
         </div>
 
         <div className={styles.info}>
