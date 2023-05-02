@@ -7,7 +7,7 @@ const links = [
   {url: '#', text: 'Produtos'},
   {url: '#', text: 'Sobre'},
   {url: '#', text: 'Social'},
-  {url: '#', text: 'Depoismentos'},
+  {url: '#', text: 'Depoimentos'},
 ];
 
 const Navbar = () => {
