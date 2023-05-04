@@ -2,7 +2,7 @@ import Product from './Product'
 import styles from './Products.module.scss'
 
 const Products = () => {
-  return <section className={styles.products}>
+  return <section id='products' className={styles.products}>
     <Product product='1' title='Café Blend' roast='Torra Escura' stars='5' reviews='16' price='29,90' />
 
     <Product product='2' title='Café Branco' roast='Torra Clara' stars='4' reviews='12' price='28,50' />

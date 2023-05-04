@@ -13,7 +13,7 @@ const Header = () => {
           natureza.
       </p>
 
-      <button className='btn btn-primary'>Conheça</button>
+      <a href='#products' className='btn btn-primary'>Conheça</a>
     </div>
      <Image
         src='/leaf1.png'

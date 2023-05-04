@@ -7,6 +7,13 @@
   justify-content: space-between;
   position: relative;
   margin-bottom: 16rem;
+
+  @include device(mobile) {
+    justify-content: center;
+    margin-bottom: 8rem;
+  }
+
+
   .roast {
     max-width: 15rem;
     h2 {
@@ -34,6 +41,9 @@
       .dark {
         background-color: $lightDarkSecondary;
       }
+      @include device(mobile) {
+        display: none;
+      }
     }
   }
 
@@ -42,6 +52,10 @@
     top: 2rem;
     left: 50%;
     transform: translateX(-50%);
+    
+    @include device(tablet) {
+      display: none;
+    }
   }
 
   .card-wrapper {
